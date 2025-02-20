@@ -27,8 +27,10 @@ print(persone[persone['Età'] > 30])
 
 #%%
 # keep_default_na => attenzione quando i valori sono letteralmente 'NA'!!
+# na_values='' => permette di specificare quali siano i valori da interpretare come NA
 # dtype={'Age': str} => serve per forzare il tipo di una colonna
 # .astype(int) => permette di convertire il tipo di un valore in fase di creazione di una nuova colonna
+
 # Attezione all'encoding del file dati (caratteri non latini potrebbero dare errori in lettura/caricamento)
 auto = pd.read_csv('car_price_dataset.csv', )
 # print(auto.head()) => stampa le prime n righe
