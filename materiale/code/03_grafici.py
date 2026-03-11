@@ -13,6 +13,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
+print(df.shape)
 df_grouped = df.groupby("Categoria")["Vendite"].sum()
 # %%
 # df_grouped.plot(kind="bar", color="skyblue", edgecolor="black")
@@ -29,8 +30,13 @@ import seaborn as sns
 
 sns.set_theme(style="whitegrid")
 plt.figure(figsize=(6, 4))
-sns.boxplot(x="Categoria", y="Vendite", data=df, ci=None, palette="viridis")
+sns.boxplot(x="Categoria", y="Vendite", data=df, palette="viridis")
 plt.title("Vendite per categoria")
 plt.show()
 
+# %%
+plt.figure(figsize=(6, 4))
+sns.barplot(x="Categoria", y="Vendite", data=df, palette="pastel")
+plt.title("Vendite per categoria")
+plt.show()
 # %%

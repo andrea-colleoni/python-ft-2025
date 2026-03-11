@@ -1,0 +1,33 @@
+﻿1;Mario;Verdi;2025-02-18;NULL;175;"{
+  ""id"": 1,
+  ""name"": ""Leanne Graham"",
+  ""username"": ""Bret"",
+  ""email"": ""Sincere@april.biz"",
+  ""address"": {
+    ""street"": ""Kulas Light"",
+    ""suite"": ""Apt. 556"",
+    ""city"": ""Gwenborough"",
+    ""zipcode"": ""92998-3874"",
+    ""geo"": {
+      ""lat"": ""-37.3159"",
+      ""lng"": ""81.1496""
+    }
+  },
+  ""phone"": ""1-770-736-8031 x56442"",
+  ""website"": ""hildegard.org"",
+  ""company"": {
+    ""name"": ""Romaguera-Crona"",
+    ""catchPhrase"": ""Multi-layered client-server neural-net"",
+    ""bs"": ""harness real-time e-markets""
+  }
+}";py;it
+3;Giorgio;Neri;2020-06-06;NULL;170;NULL;sql;it
+4;Anna;Rossi;2015-05-16;Roma;172;NULL;py;en
+5;Andrea;Colleoni;2018-07-18;Bergamo;180;NULL;py;en
+6;Mario;Gialli;2019-04-25;;185;NULL;NULL;NULL
+7;Andrea;Rossi;2008-09-09;Bergamo;190;NULL;NULL;NULL
+8;Giulio;Rossi;2006-11-09;Milano;170;NULL;NULL;NULL
+9;Andrea;Verdi;2007-09-19;Milano;170;NULL;py;it
+10;Alfredo;Giorgio;NULL;NULL;168;NULL;NULL;NULL
+11;Vera;Valle;NULL;NULL;174;NULL;NULL;NULL
+12;Greta;Rossi;2002-05-28;Firenze;165;NULL;NULL;NULL
